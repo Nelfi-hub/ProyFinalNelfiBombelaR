@@ -23,4 +23,6 @@ jobs:
         run: npm install
 
       - name: Run unit tests
-        run: npm run test:run
+        run: |
+         chmod +x ./node_modules/ .bin/vitest
+         npm run test:run
