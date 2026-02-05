@@ -22,7 +22,5 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Run unit tests
-        run: |
-         chmod +x ./node_modules/ .bin/vitest
-         npm run test:run
+      - name: Ejecutar Test
+        run: npm run test:run
