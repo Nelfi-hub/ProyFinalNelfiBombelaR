@@ -1,0 +1,8 @@
+# Para un archivo específico
+mi_archivo_grande.js linguist-generated=false
+
+# Para todos los archivos de una carpeta
+mi_carpeta_especial/* linguist-generated=false
+
+# Para todos los archivos minificados
+*.min.js linguist-generated=false
