@@ -11,3 +11,13 @@ yarn-error.log*
 
 # entorno
 .env
+# Carpetas de compilación
+dist/
+build/
+bin/
+
+# Dependencias
+node_modules/
+
+# Archivos específicos
+*.min.js
